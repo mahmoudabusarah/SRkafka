@@ -18,7 +18,7 @@ object SendingKafka {
     val producer = new KafkaProducer[String, String](props)
 
     // Define the API URL
-    val apiUrl = "http://localhost:5000/api/data"
+    val apiUrl = "http://18.132.63.52:5000/file/api-data"
 
     // Create an HTTP client
     val httpClient = HttpClients.createDefault()
